@@ -1,0 +1,9 @@
+puts "simple calculator"
+20.times {print '-'}
+puts
+puts "enter de first number: "
+num1= gets.chomp
+puts "enter the second number:"
+num2=gets.chomp
+#here we don't forget convert from string to integer.
+puts "The first number multiplied by the second number is: #{num1.to_i*num2.to_i}"
