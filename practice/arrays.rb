@@ -24,10 +24,6 @@ puts
 p a.join('-')
 
 
-
-
-
-
 20.times {print'-'}
 puts
 #range
